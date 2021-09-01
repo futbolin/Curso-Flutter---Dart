@@ -25,3 +25,17 @@ Una aplicación está basada en un árbol de widgets en donde unos contienen a o
 Aunque no se pueda programar “arrastrando” de manera visual widgets, si que puedes ver una vista previa del código. 
 
 5. How Flutter & Dart Code Gets Compiled To Native Apps
+Habla de lo anteriormente comentado, de que flutter compila el codigo para las diferentes plataformas y especifica que las aplicaciones tienen un alto rendimiento.
+Flutter no compila su codigo con alguna equivalencia nativa de las plataformas (por ejemplo poniendo un boton en flutter no se llama al boton de ios, o android), controla cada pixel y esto da mucho control y flexibilidad sobre lo que se quiere programar. 
+
+6. Understanding Flutter Versions (6 min)
+Habla de que flutter se actualiza constantemente para arreglar errores, mejoras o también algunos cambios que ni si quiera el programador aprecia.
+
+7. Flutter macOS Setup
+8. macOS Development Environment
+No dispongo de equipo para seguir estas explicaciones.
+
+9. Flutter Windows Setup
+Siguiendo las instrucciones de esta web explica como instalar Flutter: https://flutter.dev/docs/get-started/install/windows
+
+10. Windows Development Environment
