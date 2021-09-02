@@ -1,11 +1,11 @@
-Curso:  
-Flutter & Dart - The Complete Guide [2021 Edition]
-Plataforma:
-udemy
+#Curso:  
+##Flutter & Dart - The Complete Guide [2021 Edition]
+#Plataforma:
+##udemy
 
-01/09/21:
+#01/09/21:
 
-Sección 1: Introduction
+##Sección 1: Introduction
 
 1.Introduction (2 min):  
 Explica en que consistirá el curso y habla de que se van a tener que programar aplicaciones durante el transcurso del mismo.
