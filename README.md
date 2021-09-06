@@ -47,4 +47,14 @@ Deja un par de archivos de configuración en la carpeta recursos para así poder
 Explica como ejecutar el proyecto en el emulador AVD de android a través del terminal y a través de VS CODE. 
 También explica como ver los cambios "en caliente" de las dos maneras.
 
+11. Flutter & Material Design
+Habla de flutter utilia mucho Material Design, que es de Google, pero que material design también se puede usar con apple y que también enseñara a utilizar las herramientas de apple.
+
+12. Flutter Alternatives
+Compara Flutter con React Native y a su vez con Ionic. De manera resumida cuenta que la gran ventaja de Flutter es el hecho de que las aplicaciones se compilen para ser nativas en cada dispositivo y la flexibilidad y eficiencia que da esto a las mismas.
+
+13. Course Outline
+Habla de la estructura del curso y de lo que se va a estudiar.
+
+![](capturas/courseStructure.png)
 
