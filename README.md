@@ -1,11 +1,11 @@
-#Curso:  
-##Flutter & Dart - The Complete Guide [2021 Edition]
-#Plataforma:
-##udemy
+# Curso:  
+## Flutter & Dart - The Complete Guide [2021 Edition]
+# Plataforma:
+## udemy
 
-#01/09/21:
+# 01/09/21:
 
-##Sección 1: Introduction
+## Sección 1: Introduction
 
 1. Introduction (2 min):  
 Explica en que consistirá el curso y habla de que se van a tener que programar aplicaciones durante el transcurso del mismo.
@@ -39,7 +39,7 @@ No dispongo de equipo para seguir estas explicaciones.
 9. Flutter Windows Setup
 Siguiendo las instrucciones de esta web explica como instalar Flutter: https://flutter.dev/docs/get-started/install/windows
 
-##06/09/21:
+## 06/09/21:
 
 10. Windows Development Environment
 Explica como crear un proyecto de Flutter a través de la consola, como instalar vs code, las extensiones que hay que instalar para programar comodamente y como abrir el proyecto.
