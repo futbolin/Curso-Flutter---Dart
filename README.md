@@ -7,10 +7,10 @@
 
 ##Sección 1: Introduction
 
-1.Introduction (2 min):  
+1. Introduction (2 min):  
 Explica en que consistirá el curso y habla de que se van a tener que programar aplicaciones durante el transcurso del mismo.
 
-2.What is Flutter? (6 min):
+2. What is Flutter? (6 min):
 Explica que Flutter es una herramienta que permite programar aplicaciones multiplataforma de manera nativa para cada una de estas en un mismo lenguaje, Dart. 
 Habla de las ventajas de esto, como programar solamente una vez para las diferentes plataformas o aprender un solo lenguaje.
 Flutter tiene un SDK que permite compilar para las diferentes plataformas. Además, proporciona un framework que se usará para crear las aplicaciones. 
@@ -32,6 +32,7 @@ Flutter no compila su codigo con alguna equivalencia nativa de las plataformas (
 Habla de que flutter se actualiza constantemente para arreglar errores, mejoras o también algunos cambios que ni si quiera el programador aprecia.
 
 7. Flutter macOS Setup
+
 8. macOS Development Environment
 No dispongo de equipo para seguir estas explicaciones.
 
@@ -39,3 +40,4 @@ No dispongo de equipo para seguir estas explicaciones.
 Siguiendo las instrucciones de esta web explica como instalar Flutter: https://flutter.dev/docs/get-started/install/windows
 
 10. Windows Development Environment
+
