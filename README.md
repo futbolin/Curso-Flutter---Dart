@@ -42,4 +42,9 @@ Siguiendo las instrucciones de esta web explica como instalar Flutter: https://f
 ##06/09/21:
 
 10. Windows Development Environment
+Explica como crear un proyecto de Flutter a través de la consola, como instalar vs code, las extensiones que hay que instalar para programar comodamente y como abrir el proyecto.
+Deja un par de archivos de configuración en la carpeta recursos para así poder tener configurado el proyecto de la misma manera que el curso.
+Explica como ejecutar el proyecto en el emulador AVD de android a través del terminal y a través de VS CODE. 
+También explica como ver los cambios "en caliente" de las dos maneras.
+
 
