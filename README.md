@@ -39,5 +39,7 @@ No dispongo de equipo para seguir estas explicaciones.
 9. Flutter Windows Setup
 Siguiendo las instrucciones de esta web explica como instalar Flutter: https://flutter.dev/docs/get-started/install/windows
 
+##06/09/21:
+
 10. Windows Development Environment
 
