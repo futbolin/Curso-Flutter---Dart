@@ -7,7 +7,7 @@
 
 ## Sección 1: Introduction
 
-1. Introduction	
+### 1. Introduction
 Explica en que consistirá el curso y habla de que se van a tener que programar aplicaciones durante el transcurso del mismo.
 
 2. What is Flutter?	
