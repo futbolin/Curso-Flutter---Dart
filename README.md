@@ -63,5 +63,20 @@ Habla de la estructura del curso y de lo que se va a estudiar.
 ### 14. How To Get The Most Out Of The Course
 Aconseja como llevar el curso. (A tu ritmo, programando tu solo, preguntando y ayudando a la comunidad...)
 
+## 09/09/21
+
 ## Sección 2: Flutter Basics [QUIZ APP]
 
+### 16. Module Introduction
+Habla de que esta sección va a ser larga ya que debe ajustarse a los programadores más expertos y los novatos. 
+En esta sección veremos:
+1. Como una app Flutter se inicia y funciona.
+2. Trabajaremos con widgets y crearemos widgets personalizados.
+3. Como reaccionar ante eventos del usuario.
+4. Diferencia entre widgets con estado y widgets sin estado.
+5. Fundamentos de Dart.
+
+### 17. Creating a New Project
+Creamos un proyecto a través de la consola de comandos. Explica como se crea y ejecuta un proyecto de flutter desde vs code (de nuevo).
+
+### 18. An Overview of the Generated Files & Folders 
