@@ -101,3 +101,10 @@ Resumen en PDF de los dos modulos anteriores.
 
 ### Cuestionario 1: Dart Fundamentals
 ![](capturas/cuestionario1.png)
+
+### 24. Building an App From Scratch
+Volvemos a programar en el proyecto que creamos anteriormente y explica lo que es la herencia y los import.Explica como hacer el constructor de un widget basado en material.
+
+### 25. Running the App on an Emulator
+Explica como usar la función runApp para llamar a un objeto de la clase creada anteriormente y ver en el emulador la aplicación.
+![](capturas/primeraApp.png)
