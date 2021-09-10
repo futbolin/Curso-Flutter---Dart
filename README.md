@@ -108,3 +108,16 @@ Volvemos a programar en el proyecto que creamos anteriormente y explica lo que e
 ### 25. Running the App on an Emulator
 Explica como usar la función runApp para llamar a un objeto de la clase creada anteriormente y ver en el emulador la aplicación.
 ![](capturas/primeraApp.png)
+
+### 26. Class Constructors & Named Arguments
+Explica como hacer y para que sirve un constructor y sus argumentos. Explica como funcionan los argumentos con nombres (opcionales), cuando quieres que un argumento opcional sea obligatorio (EN FLUTTER no en DART) tienes que ponerle delante @required. Explica también como hacer un constructor de manera más corta, ej: PErson({this.name,this.age});
+
+### 27. First Summary & Additional Syntax
+Resume lo que dimos y explica que opcionalmente se puede poner @override antes de la función sobrescrita para hacer un codigo más limpio.También explica como resumir una función con solo una expresion ej: void main() => runAPP(MyApp());
+
+### Cuestionario 2: Flutter App Basics
+![](capturas/cuestionario2.png)
+
+### 28. Building a Widget Tree
+Explica el objeto Scaffold (que da un diseño básico estructura y esquema de color para una interfaz de usuario). Explica que a Scaffold le podemos pasar widgets de lo que queramos modificar, por ejemplo AppBar a la que a su vez se le pasa un titulo, o un widget body. Explica donde debemos poner ',' para programar de una manera más legible.
+![](capturas/primeraApp2.png)
