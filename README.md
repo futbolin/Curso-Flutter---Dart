@@ -91,4 +91,13 @@ Explica con el codigo que todo son widgets, que hay widgets creados por flutter 
 ### 21. Dart Basics
 Explica conceptos básicos de dart, como lo que es una función, que es un lenguaje tipado, que la funcion main es la función que usa como entrada a la aplicación, que las funciones para su nomemclatura utilizando camel case, como llamar a funciones, que hay que usar punto y coma despues de cada función... 
 
+## 10/09/21
+
 ### 22. More Dart Basics
+Explica como crear variables en dart y el uso de 'var'. Explica también que todo en DART es un objeto y como inicializarlos (sin usar new) y cambiar sus propiedades.
+
+### 23. Dart Basics - Summary
+Resumen en PDF de los dos modulos anteriores.
+
+### Cuestionario 1: Dart Fundamentals
+![](capturas/cuestionario1.png)
