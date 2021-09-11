@@ -13,11 +13,15 @@ class MyApp extends StatelessWidget {
         ),
         body: Column(children: [
           Text("La pregunta"),
-          RaisedButton(child: Text("Respuesta 1"), onPressed: null),
-          RaisedButton(child: Text("Respuesta 2"), onPressed: null),
-          RaisedButton(child: Text("Respuesta 3"), onPressed: null)
+          RaisedButton(child: Text("Respuesta 1"), onPressed: answerQuestion),
+          RaisedButton(child: Text("Respuesta 2"), onPressed: answerQuestion),
+          RaisedButton(child: Text("Respuesta 3"), onPressed: answerQuestion)
         ]),
       ),
     );
+  }
+
+  void answerQuestion() {
+    print("Botón pulsado!");
   }
 }

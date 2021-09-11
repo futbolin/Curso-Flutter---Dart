@@ -131,3 +131,15 @@ Explica la diferencia entre los widgets visibles que están relacionados con la 
 Explica el concepto de listas en Dart, como meter una lista de widgets dentro de un widget del tipo columna, y como hacer botones con el widget RaisedBoton.
 
 ![](capturas/primeraApp3.png)
+
+### Cuestionario 3: Widget Basics
+![](capturas/cuestionario3.png)
+
+### 31. Connecting Functions & Buttons
+Explica como conectar las funciones con los botones, básicamente en el Onpressed: se llaman sin parentesis, si no se ejecutarian en el momento.
+
+### 32. Anonymous Functions
+Explica como programar funciones anonimas: si son simples "() => print("HOLA")" si la función usa varias lineas se usan los corchetes "(){print("HOLA");print("Esto es otra linea de codigo");}
+
+### 33. Updating Widget Data (Or: Using StatelessWidget Incorrectly)
+Explica como NO cambiar el texto a través de un boton :rage: 
