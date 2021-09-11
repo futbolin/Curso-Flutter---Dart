@@ -121,3 +121,10 @@ Resume lo que dimos y explica que opcionalmente se puede poner @override antes d
 ### 28. Building a Widget Tree
 Explica el objeto Scaffold (que da un diseño básico estructura y esquema de color para una interfaz de usuario). Explica que a Scaffold le podemos pasar widgets de lo que queramos modificar, por ejemplo AppBar a la que a su vez se le pasa un titulo, o un widget body. Explica donde debemos poner ',' para programar de una manera más legible.
 ![](capturas/primeraApp2.png)
+
+## 11/09/21
+
+### 29. Visible (Input / Output) & Invisible (Layout / Control) Widgets
+Explica la diferencia entre los widgets visibles que están relacionados con la entrada o salida de datos cara al usuario (botones, textos...) e invisibles donde controlamos cosas como el layout y la estructura de widgets (filas,columnas,Listview..).
+
+### 30. Adding Layout Widgets

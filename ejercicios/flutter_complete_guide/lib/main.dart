@@ -11,7 +11,12 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text("La barra de mi app"),
         ),
-        body: Text("El texto de mi body"),
+        body: Column(children: [
+          Text("La pregunta"),
+          RaisedButton(child: Text("Respuesta 1"), onPressed: null),
+          RaisedButton(child: Text("Respuesta 2"), onPressed: null),
+          RaisedButton(child: Text("Respuesta 3"), onPressed: null)
+        ]),
       ),
     );
   }
