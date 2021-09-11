@@ -128,3 +128,6 @@ Explica el objeto Scaffold (que da un diseño básico estructura y esquema de co
 Explica la diferencia entre los widgets visibles que están relacionados con la entrada o salida de datos cara al usuario (botones, textos...) e invisibles donde controlamos cosas como el layout y la estructura de widgets (filas,columnas,Listview..).
 
 ### 30. Adding Layout Widgets
+Explica el concepto de listas en Dart, como meter una lista de widgets dentro de un widget del tipo columna, y como hacer botones con el widget RaisedBoton.
+
+![](capturas/primeraApp3.png)
