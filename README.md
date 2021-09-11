@@ -142,4 +142,4 @@ Explica como conectar las funciones con los botones, básicamente en el Onpresse
 Explica como programar funciones anonimas: si son simples "() => print("HOLA")" si la función usa varias lineas se usan los corchetes "(){print("HOLA");print("Esto es otra linea de codigo");}
 
 ### 33. Updating Widget Data (Or: Using StatelessWidget Incorrectly)
-Explica como NO cambiar el texto a través de un boton :rage: 
+Explica como NO cambiar el texto a través de un boton :rage: :shit:
