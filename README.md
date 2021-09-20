@@ -193,8 +193,10 @@ Explica como transformar la lista de preguntar y respuestas en widgets de tipo a
 Explica el uso que debemos dar a 'final' y 'const' y como las trata dart.
 
 ### Cuestionario 5: Advanced Flutter & Dart Basics
-![](capturas/cuestionario5.png)
+![](capturas/cuestionario5.png
 
+### 47. Introducing "if" Statements
+Explica los 'ifs' y las booleanas.
 
 
 
