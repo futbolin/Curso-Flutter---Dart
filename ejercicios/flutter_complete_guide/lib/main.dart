@@ -41,21 +41,23 @@ class MyAppState extends State<MyApp> {
       },
     ];
 
+    (numeroPregunta <= questions.length-1)?  pregunta = questions[numeroPregunta]['questionText'] :  null;
 
-    pregunta = questions[numeroPregunta]['questionText'];
 
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
           title: Text("QUIZ"),
         ),
-        body: Column(children: [
+        body: (numeroPregunta <= questions.length-1)? Column(children: [
           Pregunta(pregunta),
           ...(questions[numeroPregunta]['answers'] as List<String>).map((answer)
           {
               return Answer(answerQuestion, answer);
           }).toList()
-        ]),
+        ]) : Center ( child:
+           Text("Ya estaría"),
+             ),
       ),
     );
   }

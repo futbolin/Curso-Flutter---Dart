@@ -198,6 +198,15 @@ Explica el uso que debemos dar a 'final' y 'const' y como las trata dart.
 ### 47. Introducing "if" Statements
 Explica los 'ifs' y las booleanas.
 
+### 48. [DART DEEP DIVE] More on "if" Statements
+Explica de nuevo más profundamentos como funcionan las condiciones y las booleanas.
+
+### 49. [DART DEEP DIVE] The "null" Value & Null Safety
+Explica el valor null y el modo en el que se puede trabajar comprobando que las variables no van a ser null. 
+
+###  50. Outputting Widgets Conditionally
+Explica como hacer ternarias y como implementarlas en la APP que estamos haciendo. 
+
 
 
  
