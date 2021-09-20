@@ -143,3 +143,16 @@ Explica como programar funciones anonimas: si son simples "() => print("HOLA")" 
 
 ### 33. Updating Widget Data (Or: Using StatelessWidget Incorrectly)
 Explica como NO cambiar el texto a través de un boton :rage: :shit:
+
+## 20/09/21
+
+### 34. [DART DEEP DIVE] Understanding Lists
+Explica el concepto de listas.	
+
+### 35. Updating Correctly with Stateful Widgets
+Explica lo que es el estado de un widget y cual es la diferencia entre un widget con estado y uno sin. También explica como programar y enlazar un widget con estado. 
+
+### Cuestionario 4: Stateful & Stateless Widgets
+![](capturas/cuestionario4-png)
+
+
