@@ -189,7 +189,11 @@ Explica como funcionan los mapas de datos en dart. (Funciona como un hash map cl
 ### 45. Mapping List to Widgets
 Explica como transformar la lista de preguntar y respuestas en widgets de tipo answer y question, creados anteriormente dinamicamente.
 
+### 46. final vs const
+Explica el uso que debemos dar a 'final' y 'const' y como las trata dart.
 
+### Cuestionario 5: Advanced Flutter & Dart Basics
+![](capturas/cuestionario5.png)
 
 
 
