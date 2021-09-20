@@ -240,4 +240,47 @@ Hace un resumen de lo que se dará en este modulo:
 Explica como probar la aplicación en un dispositivo Android conectado al pc.
 
 ### 60. Running the App on an iOS Emulator
-Explica como abrir a través de Xcode la app que hemos creado. 
+Explica como abrir a través de Xcode la app que hemos creado en un emulador de iOs.
+
+### 61. Running the App on a Real iOS device
+Explica como ejecutar la aplicación creada en un dispotivo iOS conectado a nuestro mac.
+
+### 62. Working with the Emulators / Using the Emulators
+Explica algunas de las caracteristicas de los emuladores.
+
+### 63. Understanding Error Messages & Fixing Errors
+Habla de los errores más comunes, como los errores de sintaxis o las excepciones durante la ejecución y como detectarlos. 
+
+### 64. Using the Debugger
+Explica como usar el debugeador incluido en Visual Studio.
+
+### 65. Getting Started with the Dart DevTools
+Explica como abrir las herramientas de desarollo de dart y como empezar a sacarles provecho.
+
+### 66. Understanding the Repaint Rainbow
+Explica en que consiste la herramienta de "repaint rainbow". Basicamente sirve para que marque que elementos en pantalla han cambiado/se han repintado.
+
+### 67. Wrapping up the Dart DevTools
+Explica como usar otras de las herramientas que proporciona Dart para depurar como la linea de tiempo o el consumo de memoria. 
+
+### 68. Useful Resources & Links 
+Como todos los finales de secciones aporta enlaces a documentación y aporta recursos vistos en la clase. Dejo un ejemplo de esta pantalla ya que se repetirá más veces:
+
+![](capturas/ejemploUseful.png)
+
+## Sección 4: Widgets, Styling, Adding Logic - Building a Real App [PERSONAL EXPENSES APP]
+
+### 69. Module Introduction
+Introducción a lo que se estudiará en este modulo y a la app que se hará.
+
+![](capturas/introduccionModulo4.png)
+
+### 70. An Overview of the Core Flutter Widgets
+Un pequeño resumen de los widgets más importantes de flutter en los que durante el curso iremos indagando más y conociendolos mejor.
+
+### 71. Planning the App
+Planifica y explica como será la app que desarollaremos en esta sección, este ejemplo es útil para ver la importancia de la planificación y visualizar lo que se hará antes de empezar.
+
+![](capturas/planificacionAppGastos.png)
+
+
