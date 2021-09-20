@@ -153,6 +153,6 @@ Explica el concepto de listas.
 Explica lo que es el estado de un widget y cual es la diferencia entre un widget con estado y uno sin. También explica como programar y enlazar un widget con estado. 
 
 ### Cuestionario 4: Stateful & Stateless Widgets
-![](capturas/cuestionario4-png)
+![](capturas/cuestionario4.png)
 
 
