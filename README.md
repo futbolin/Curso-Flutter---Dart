@@ -184,6 +184,12 @@ Explica como pasar una función en un constructor. Además hacemos nuestro propi
 ![](capturas/primeraApp4.png)
 
 ### 44.Introducing Maps
+Explica como funcionan los mapas de datos en dart. (Funciona como un hash map clave-valor).
+
+### 45. Mapping List to Widgets
+Explica como transformar la lista de preguntar y respuestas en widgets de tipo answer y question, creados anteriormente dinamicamente.
+
+
 
 
 

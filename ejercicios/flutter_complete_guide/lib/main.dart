@@ -16,26 +16,45 @@ class MyApp extends StatefulWidget{
 
 }
 class MyAppState extends State<MyApp> {
-  String texto = "La pregunta";
+  String pregunta = "La pregunta";
+  int numeroPregunta = 0;
   answerQuestion() {
     setState(() {
-      texto = "Ya pulso algo y se actualizó el estado";
+    numeroPregunta++;
     });
-    print("Botón pulsado!");
   }
 
   Widget build(BuildContext context) {
+    var questions = [
+      {
+        'questionText': 'What\'s your favorite color?',
+        'answers' : ['Black' , 'Red', 'Green','White'],
+      },
+      {
+        'questionText': 'What\'s your favorite animal?',
+        'answers': ['Rabbit','Snake','Elephant','Lion'],
+      },
+      {
+        'questionText':'Who\'s your favorite instructor?',
+        'answers' : ['Cualquier menos Max','Cualquiera menos Max',
+          'Cualquiera menos Max','Cualquiera menos Max'],
+      },
+    ];
+
+
+    pregunta = questions[numeroPregunta]['questionText'];
+
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text(texto),
+          title: Text("QUIZ"),
         ),
         body: Column(children: [
-          Pregunta("La pregunta"),
-          Answer(answerQuestion),
-          Answer(answerQuestion),
-          Answer(answerQuestion)
-
+          Pregunta(pregunta),
+          ...(questions[numeroPregunta]['answers'] as List<String>).map((answer)
+          {
+              return Answer(answerQuestion, answer);
+          }).toList()
         ]),
       ),
     );
