@@ -207,6 +207,37 @@ Explica el valor null y el modo en el que se puede trabajar comprobando que las 
 ###  50. Outputting Widgets Conditionally
 Explica como hacer ternarias y como implementarlas en la APP que estamos haciendo. 
 
+### 51. Splitting the App Into Widgets
+Habla de la importancía de tener un codigo limpio y los widgets cada uno en su propia clase, lo hace con el ejemplo de aplicación.
 
+### 52. Calculating a Total Score
+Explica como aignar una puntuación a cada una de las respuestas de la App y como hacer un variable que vaya contando esa puntuación.
 
- 
+### 53. Getters & "else-if"
+Explica el funcionamiento de los "else-if" y de los "captadores" "get" y como se usan en dart, ej: 
+String get frase { return "hola";
+}
+
+### 54. Resetting the Quiz
+Explica como poner una nueva columna para así poner un texto debajo de un botón para reiniciar la aplicación.
+
+### 55. "Old" Button Widgets vs "New" Button Widgets
+Explica que en el curso se siguen utilizando los viejos botones porque aunque estén deprecados aun hay mucho codigo con ellos. Comenta también las ventajas de los nuevos botones. También explica como migrar de los botones viejos a los nuevos. 
+
+### 56. Wrap Up
+Resume lo dado en esta sección 
+
+### 57. Module Resources
+Recursos: links de interes, de documentación oficial y el codigo realizado en este modulo.
+
+## Sección 3: Running Apps on Different Devices & Debugging Apps
+
+### 58. Module Introduction
+Hace un resumen de lo que se dará en este modulo:
+![](capturas/moduleIntroduction.png)
+
+### 59. Running the App on a Real Android Device
+Explica como probar la aplicación en un dispositivo Android conectado al pc.
+
+### 60. Running the App on an iOS Emulator
+Explica como abrir a través de Xcode la app que hemos creado. 
