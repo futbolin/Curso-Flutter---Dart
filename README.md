@@ -155,4 +155,35 @@ Explica lo que es el estado de un widget y cual es la diferencia entre un widget
 ### Cuestionario 4: Stateful & Stateless Widgets
 ![](capturas/cuestionario4.png)
 
+### 36. A Brief Look Under The Hood
+Explica como funciona internamente la función SetState().
 
+### 37. Using Private Properties
+Explica los niveles de acceso a las propiedades desde los otros archivos/librerias (el concepto de privado) 
+Para convertir una propiedad o clase en privada en dart se le pone una barra baja antes del nombre ej: 
+variable1 sería publica _variable1 sería privada.
+
+### 38. Creating a New, Cuestom Widget
+Explica como hacer una clase widget y acceder a ella desde otra clase.
+
+### 39. First Styling & Layouting Steps
+Explica algunas propiedades de estilo que se le pueden pasar al constructor de un text, lo que es una enumeración, que puede haber diferentes tipos de constructores...
+
+### 40. Enums & Multiple Constructors 
+Explica de manera más extendida lo que es una enumeración y la posibilidad de usar multiples constructores en dart.
+
+### 41. Official Docs & The Widget Catalog
+Explica la utilidad de la documentación de Flutter y donde encontrarla.
+
+### 42. Styling Buttons & Passing Callback Functions Around
+Explica como usar el RaisedButton en vez del ElevatedButton.
+
+### 43. Passing Callback Functions Around 
+Explica como pasar una función en un constructor. Además hacemos nuestro propio widget "Answer".
+
+### 44.Introducing Maps
+
+
+
+
+ 

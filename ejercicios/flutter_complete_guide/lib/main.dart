@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import './pregunta.dart';
+import './answer.dart';
+
 
 void main() {
   runApp(MyApp());
@@ -14,7 +17,7 @@ class MyApp extends StatefulWidget{
 }
 class MyAppState extends State<MyApp> {
   String texto = "La pregunta";
-  void answerQuestion() {
+  answerQuestion() {
     setState(() {
       texto = "Ya pulso algo y se actualizó el estado";
     });
@@ -28,10 +31,11 @@ class MyAppState extends State<MyApp> {
           title: Text(texto),
         ),
         body: Column(children: [
-          Text("La pregunta"),
-          RaisedButton(child: Text("Respuesta 1"), onPressed: answerQuestion),
-          RaisedButton(child: Text("Respuesta 2"), onPressed: answerQuestion),
-          RaisedButton(child: Text("Respuesta 3"), onPressed: answerQuestion)
+          Pregunta("La pregunta"),
+          Answer(answerQuestion),
+          Answer(answerQuestion),
+          Answer(answerQuestion)
+
         ]),
       ),
     );
