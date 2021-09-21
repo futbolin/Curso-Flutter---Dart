@@ -283,4 +283,43 @@ Planifica y explica como será la app que desarollaremos en esta sección, este 
 
 ![](capturas/planificacionAppGastos.png)
 
+## 21/09/21
+
+### 72. Combining Widgets
+Creamos un par de widgets tipo Card en la nueva aplicación que estamos desarollando y vemos como se comporta el ancho de la misma al meterla dentro de otro widget tipo container y darle tamaño o darle tamaño al widget "hijo" del card.
+
+### 73. Understanding Column Alignment
+Explica algunas propiedades de las columnas y filas.
+
+### Cuestionario 6: Columns & Rows
+![](capturas/cuestionario6.png)
+
+### 74. Not a Widget: Adding a Transaction Model & Transaction Data
+Hacemos el modelo de transacciones y hacemos una lista de transacciones.
+
+### 75. Mapping Data Into Widgets
+Hacemos un mapeo de la lista de transacciones a widgets tipo Card.
+
+### 76. Building a Custom List Item
+Formateamos la carta de cada una de las transacciones de modo que incluya todos los datos de una manera ordenada.
+
+### 77. Styling a Container
+Damos estilo al contenedor de los precios.
+
+### 78. Styling Text
+Damos estilo al texto de los precios ( negrita, tamaño de fuente, color)
+
+### 79.More Styling
+Damos estilo al texto de titulo del gastos y al de fecha.
+
+### Cuestionario 7:Styling Time! 
+![](capturas/cuestionario7.png)
+
+### 80. Containers vs Columns vs Rows
+Explica las diferencias entra las columnas las filas y los contenedores y enima a combinarlos ya que cada uno tiene sus ventajas y posibilidades.
+![](capturas/colConFil.png)
+
+
+
+
 
