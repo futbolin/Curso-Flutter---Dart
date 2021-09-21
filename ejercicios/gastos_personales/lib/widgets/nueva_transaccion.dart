@@ -29,7 +29,7 @@ class NuevaTransaccion extends StatelessWidget {
               ),
             ),
             FlatButton(
-              textColor: Colors.purple,
+              textColor: Color.fromARGB(255, 0, 47, 0),
               onPressed: () {
                 agregarTransaccion(tituloControlador.text,
                     double.tryParse(precioControlador.text));

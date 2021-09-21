@@ -345,6 +345,11 @@ Añadimos una función para meter nuevas transacciones y actualizar el estado.
 ### 88. Adding User Transactions to the List
 Hacemos que el botón añada a la lista un nuevo gasto.
 
+### 89. Making the List Scrollable!
+Hacemos que se pueda scrollear en la lista de gastos.
+
+
+
 				
 
 
