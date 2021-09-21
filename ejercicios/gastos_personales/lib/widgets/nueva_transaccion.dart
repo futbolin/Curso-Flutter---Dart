@@ -1,11 +1,32 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class NuevaTransaccion extends StatelessWidget {
+class NuevaTransaccion extends StatefulWidget {
   final Function agregarTransaccion;
-  final tituloControlador = TextEditingController();
-  final precioControlador = TextEditingController();
 
   NuevaTransaccion(this.agregarTransaccion);
+
+  @override
+  State<NuevaTransaccion> createState() => _NuevaTransaccionState();
+}
+
+class _NuevaTransaccionState extends State<NuevaTransaccion> {
+  final tituloControlador = TextEditingController();
+
+  final precioControlador = TextEditingController();
+
+  void submit() {
+    if (tituloControlador.text != "" &&
+        double.tryParse(precioControlador.text)! > 0) {
+      widget.agregarTransaccion(
+          tituloControlador.text, double.parse(precioControlador.text));
+    } else {
+      return;
+    }
+
+    Navigator.of(context).pop();
+
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -21,18 +42,21 @@ class NuevaTransaccion extends StatelessWidget {
               decoration: InputDecoration(
                 labelText: "Titulo de compra",
               ),
+              onSubmitted: (val) => submit(),
+
             ),
             TextField(
               controller: precioControlador,
               decoration: InputDecoration(
                 labelText: "Precio",
               ),
+              keyboardType: TextInputType.numberWithOptions(decimal: true),
+              onSubmitted: (val) => submit(),
             ),
             FlatButton(
               textColor: Color.fromARGB(255, 0, 47, 0),
               onPressed: () {
-                agregarTransaccion(tituloControlador.text,
-                    double.tryParse(precioControlador.text));
+                submit();
               },
               child: Text(
                 "Añadir Movimiento",

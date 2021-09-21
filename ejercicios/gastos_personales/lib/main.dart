@@ -1,33 +1,107 @@
 import 'package:flutter/material.dart';
-import 'modelos/transaccion.dart';
 import 'widgets/transacciones_lista.dart';
-import 'widgets/transacciones_del_usuario.dart';
+import 'modelos/transaccion.dart';
+import 'widgets/nueva_transaccion.dart';
 
 void main() => runApp(MyApp());
+Map<int, Color> color =
+{
+  50:Color.fromRGBO(0,47,187, .1),
+  100:Color.fromRGBO(0,47,187, .2),
+  200:Color.fromRGBO(0,47,187, .3),
+  300:Color.fromRGBO(0,47,187, .4),
+  400:Color.fromRGBO(0,47,187, .5),
+  500:Color.fromRGBO(0,47,187, .6),
+  600:Color.fromRGBO(0,47,187, .7),
+  700:Color.fromRGBO(0,47,187, .8),
+  800:Color.fromRGBO(0,47,187, .9),
+  900:Color.fromRGBO(0,47,187, 1),
+};
+
+MaterialColor colorCustom = MaterialColor(0xFF002fa7, color);
 
 class MyApp extends StatelessWidget {
+
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter App',
+      title: 'Gastos App',
+      theme: ThemeData(
+        primarySwatch: colorCustom,
+      ),
       home: MyHomePage(),
     );
   }
 }
 
-class MyHomePage extends StatelessWidget {
+class MyHomePage extends StatefulWidget {
+  @override
+  State<MyHomePage> createState() => _MyHomePageState();
+}
+
+class _MyHomePageState extends State<MyHomePage> {
+  final List<Transaccion> transaccionesDelUsuario = [
+    Transaccion(
+        id: "t1", titulo: "Libro", cantidad: 13.33, fecha: DateTime.now()),
+    Transaccion(
+        id: "t2", titulo: "Zapatos", cantidad: 30.33, fecha: DateTime.now()),
+    Transaccion(
+        id: "t3", titulo: "Cascos", cantidad: 70.33, fecha: DateTime.now()),
+    Transaccion(
+        id: "t4", titulo: "Caja", cantidad: 0.99, fecha: DateTime.now()),
+    Transaccion(
+        id: "t5", titulo: "Colacoca", cantidad: 45.99, fecha: DateTime.now()),
+    Transaccion(
+        id: "t6", titulo: "Pañuelos", cantidad: 567.99, fecha: DateTime.now()),
+    Transaccion(
+        id: "t7", titulo: "Series B ", cantidad: 5.99, fecha: DateTime.now()),
+    Transaccion(
+        id: "t8", titulo: "Ifone", cantidad: 66.99, fecha: DateTime.now()),
+    Transaccion(
+        id: "t9", titulo: "Cafe", cantidad: 90.99, fecha: DateTime.now()),
+  ];
+
+  void _agregarTransaccion(String titulo, double precio) {
+    final nuevaTransaccion = Transaccion(
+      titulo: titulo,
+      cantidad: precio,
+      fecha: DateTime.now(),
+      id: DateTime.now().toString(),
+    );
+
+    setState(() {
+      transaccionesDelUsuario.add(nuevaTransaccion);
+    });
+  }
+
+  void _startNuevaTransaccion(BuildContext contexto) {
+    showModalBottomSheet(
+      context: contexto,
+      builder: (_) {
+        return GestureDetector(
+          onTap: () {},
+          child: NuevaTransaccion(_agregarTransaccion),
+          behavior: HitTestBehavior.opaque,
+        );
+      },
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
-    String tituloEntrada;
-    String precioEntrada;
-
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color.fromARGB(255, 0, 47, 187),
-        title: Text('Flutter App'),
+        title: Text('Gastos App'),
+        actions: [
+          IconButton(
+            onPressed: () => _startNuevaTransaccion(context),
+            icon: Icon(Icons.add),
+          ),
+        ],
       ),
       body: Container(
-        color: Color.fromARGB(255, 240, 240, 240),
         child: SingleChildScrollView(
           child: Column(
             children: <Widget>[
@@ -39,11 +113,18 @@ class MyHomePage extends StatelessWidget {
                   color: Color.fromARGB(255, 0, 47, 187),
                 ),
               ),
-              TransaccionesDelUsuario(),
+              TransaccionesLista(transaccionesDelUsuario),
             ],
           ),
         ),
       ),
+      floatingActionButton: FloatingActionButton(
+        child: Icon(
+          Icons.add,
+        ),
+        onPressed: () => _startNuevaTransaccion(context),
+      ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );
   }
 }

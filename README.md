@@ -348,6 +348,28 @@ Hacemos que el botón añada a la lista un nuevo gasto.
 ### 89. Making the List Scrollable!
 Hacemos que se pueda scrollear en la lista de gastos.
 
+### 90. Working with ListViews
+Enseña como cambiar el widget tipo column por un ListView, y dos maneras de usar el ListView, pasandole los widgets children en el constructor o a través de la función builder que para listas con más datos se vuelve más eficiente al no tener cargado todo todo el rato en la memoria.
+
+### Cuestionario 8: Lists, Scrolling & Text Input
+![](capturas/cuestionario8.png)
+
+### 91. Further Input & Output Styling and Configuration
+Cambiamos propiedades de los inputs y de como muestra el texto.
+
+### 92. Adding AppBar Buttons & Floating Action Buttons
+Añadimos un botón a la barra superior de la app y un botón flotante.
+
+![](capturas/segundaApp1.png)
+
+### 93. Showing a Modal Bottom Sheet
+Hacemos que la parte de añadir una nueva transacción sea modular y se abra al pulsar los botones de +.
+
+### 94. Improving & Styling the Modal Bottom Sheet
+Mejoramos la parte modulada de añadir transacción haciendo que se cierre al añadir transación. 
+
+### 95. Configuring & Using Themes
+Explica como usar los temas en tu APP y como pasar los datos a las otras pantallas.
 
 
 				
