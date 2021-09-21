@@ -319,6 +319,38 @@ Damos estilo al texto de titulo del gastos y al de fecha.
 Explica las diferencias entra las columnas las filas y los contenedores y enima a combinarlos ya que cada uno tiene sus ventajas y posibilidades.
 ![](capturas/colConFil.png)
 
+### 81. Using String Interpolation
+Explica como se interpolan de una manera comoda en Dart los Strings.
+
+### 82. Installing External Packages & Formatting Dates
+Explica como instalar el paquete externo de formatear fechas y lo usamos en la fecha de la app.
+
+### 83. DateFormat Patterns
+Aporta un documento donde indica patrones de formatos de fecha para el paquete intl previamente instalado.
+
+### 84. Adding Text Input Widgets (TextField)
+Añadimos y formateamos el widget tipo campo de texto.
+
+### 85. Fetching User Input
+Explica como coger los datos de los inputs de texto.
+
+![](capturas/segundaApp.png)
+
+### 86. Splitting the App Into Widgets
+Explica como modularizar correctamente los modelos y widgets para tener todo el codigo más limpio y ordenado.
+
+### 87. Connecting Widgets & Managing Data / State
+Añadimos una función para meter nuevas transacciones y actualizar el estado.
+
+### 88. Adding User Transactions to the List
+Hacemos que el botón añada a la lista un nuevo gasto.
+
+				
+
+
+
+
+
 
 
 

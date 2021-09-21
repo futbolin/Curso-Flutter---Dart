@@ -4,7 +4,7 @@ class Transaccion{
   final double cantidad;
   final DateTime fecha;
 
-  Transaccion({required this.id ,required this.titulo ,required this.cantidad ,required this.fecha,});
+  Transaccion({this.id ,this.titulo ,this.cantidad ,this.fecha,});
 
 }
 
