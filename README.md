@@ -405,7 +405,7 @@ Explica como mandar los datos de las transacciones recientes al widget de gráfi
 Creamos otro widget para que genere las barras de los gráficos. 
 
 ### 104. Populating the Chart with Values
-
+Implementamos la barra de gráficos. 
 
 
 

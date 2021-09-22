@@ -36,11 +36,15 @@ class Grafico extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
       elevation: 10,
-      margin: EdgeInsets.all(20),
-      child: Row(
-        children: transaccionesAgrupadasPorValor.map((datos) {
-          return GraficoBarra(datos["dia"] as String,datos["cantidad"] as double,(datos["cantidad"] as double) / totalGastado);
-        }).toList(),
+      margin: EdgeInsets.all(10),
+      child: Container(
+        padding: EdgeInsets.all(10),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: transaccionesAgrupadasPorValor.map((datos) {
+            return GraficoBarra(datos["dia"] as String,datos["cantidad"] as double,totalGastado != 0 ? ((datos["cantidad"] as double) / totalGastado):0);
+          }).toList(),
+        ),
       ),
     );
   }

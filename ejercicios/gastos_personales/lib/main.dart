@@ -42,23 +42,23 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   final List<Transaccion> transaccionesDelUsuario = [
     Transaccion(
-        id: "t1", titulo: "Libro", cantidad: 13.33, fecha: DateTime.now()),
+        id: "t1", titulo: "Libro", cantidad: 13.33, fecha: DateTime.now().subtract(Duration(days: 1))),
     Transaccion(
-        id: "t2", titulo: "Zapatos", cantidad: 30.33, fecha: DateTime.now()),
+        id: "t2", titulo: "Zapatos", cantidad: 30.33, fecha: DateTime.now().subtract(Duration(days: 2))),
     Transaccion(
-        id: "t3", titulo: "Cascos", cantidad: 70.33, fecha: DateTime.now()),
+        id: "t3", titulo: "Cascos", cantidad: 70.33, fecha: DateTime.now().subtract(Duration(days: 3))),
     Transaccion(
-        id: "t4", titulo: "Caja", cantidad: 0.99, fecha: DateTime.now()),
+        id: "t4", titulo: "Caja", cantidad: 0.99, fecha: DateTime.now().subtract(Duration(days: 4))),
     Transaccion(
-        id: "t5", titulo: "Colacoca", cantidad: 45.99, fecha: DateTime.now()),
+        id: "t5", titulo: "Colacoca", cantidad: 45.99, fecha: DateTime.now().subtract(Duration(days: 5))),
     Transaccion(
-        id: "t6", titulo: "Pañuelos", cantidad: 567.99, fecha: DateTime.now()),
+        id: "t6", titulo: "Pañuelos", cantidad: 57.99, fecha: DateTime.now().subtract(Duration(days: 6))),
     Transaccion(
-        id: "t7", titulo: "Series B ", cantidad: 5.99, fecha: DateTime.now()),
+        id: "t7", titulo: "Series B ", cantidad: 5.99, fecha: DateTime.now().subtract(Duration(days: 7))),
     Transaccion(
-        id: "t8", titulo: "Ifone", cantidad: 66.99, fecha: DateTime.now()),
+        id: "t8", titulo: "Ifone", cantidad: 66.99, fecha: DateTime.now().subtract(Duration(days: 1))),
     Transaccion(
-        id: "t9", titulo: "Cafe", cantidad: 90.99, fecha: DateTime.now()),
+        id: "t9", titulo: "Cafe", cantidad: 90.99, fecha: DateTime.now().subtract(Duration(days: 1))),
   ];
 
   List<Transaccion> get transaccionesRecientes {
@@ -109,14 +109,14 @@ class _MyHomePageState extends State<MyHomePage> {
         ],
       ),
       body: Container(
-       // child: SingleChildScrollView(
+        child: SingleChildScrollView(
           child: Column(
             children: <Widget>[
               Grafico(transaccionesDelUsuario),
               TransaccionesLista(transaccionesRecientes),
             ],
           ),
-       // ),
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         child: Icon(
