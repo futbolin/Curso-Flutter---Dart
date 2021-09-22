@@ -1,34 +1,33 @@
 import 'package:flutter/material.dart';
+import '/widgets/grafico.dart';
 import 'widgets/transacciones_lista.dart';
 import 'modelos/transaccion.dart';
 import 'widgets/nueva_transaccion.dart';
 
 void main() => runApp(MyApp());
-Map<int, Color> color =
-{
-  50:Color.fromRGBO(0,47,187, .1),
-  100:Color.fromRGBO(0,47,187, .2),
-  200:Color.fromRGBO(0,47,187, .3),
-  300:Color.fromRGBO(0,47,187, .4),
-  400:Color.fromRGBO(0,47,187, .5),
-  500:Color.fromRGBO(0,47,187, .6),
-  600:Color.fromRGBO(0,47,187, .7),
-  700:Color.fromRGBO(0,47,187, .8),
-  800:Color.fromRGBO(0,47,187, .9),
-  900:Color.fromRGBO(0,47,187, 1),
+Map<int, Color> color = {
+  50: Color.fromRGBO(0, 47, 187, .1),
+  100: Color.fromRGBO(0, 47, 187, .2),
+  200: Color.fromRGBO(0, 47, 187, .3),
+  300: Color.fromRGBO(0, 47, 187, .4),
+  400: Color.fromRGBO(0, 47, 187, .5),
+  500: Color.fromRGBO(0, 47, 187, .6),
+  600: Color.fromRGBO(0, 47, 187, .7),
+  700: Color.fromRGBO(0, 47, 187, .8),
+  800: Color.fromRGBO(0, 47, 187, .9),
+  900: Color.fromRGBO(0, 47, 187, 1),
 };
 
 MaterialColor colorCustom = MaterialColor(0xFF002fa7, color);
 
 class MyApp extends StatelessWidget {
-
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Gastos App',
       theme: ThemeData(
         primarySwatch: colorCustom,
+        fontFamily: "OpenSans",
       ),
       home: MyHomePage(),
     );
@@ -61,6 +60,14 @@ class _MyHomePageState extends State<MyHomePage> {
     Transaccion(
         id: "t9", titulo: "Cafe", cantidad: 90.99, fecha: DateTime.now()),
   ];
+
+  List<Transaccion> get transaccionesRecientes {
+    return transaccionesDelUsuario.where((transaccion) {
+      return transaccion.fecha.isAfter(DateTime.now().subtract(
+        Duration(days: 7),
+      ));
+    }).toList();
+  }
 
   void _agregarTransaccion(String titulo, double precio) {
     final nuevaTransaccion = Transaccion(
@@ -102,21 +109,14 @@ class _MyHomePageState extends State<MyHomePage> {
         ],
       ),
       body: Container(
-        child: SingleChildScrollView(
+       // child: SingleChildScrollView(
           child: Column(
             children: <Widget>[
-              Container(
-                width: double.infinity,
-                child: Card(
-                  child: Text("chart"),
-                  elevation: 5,
-                  color: Color.fromARGB(255, 0, 47, 187),
-                ),
-              ),
-              TransaccionesLista(transaccionesDelUsuario),
+              Grafico(transaccionesDelUsuario),
+              TransaccionesLista(transaccionesRecientes),
             ],
           ),
-        ),
+       // ),
       ),
       floatingActionButton: FloatingActionButton(
         child: Icon(

@@ -371,8 +371,43 @@ Mejoramos la parte modulada de añadir transacción haciendo que se cierre al a�
 ### 95. Configuring & Using Themes
 Explica como usar los temas en tu APP y como pasar los datos a las otras pantallas.
 
+## 22/09/21
 
-				
+### 96. Custom Fonts & Working with Text Themes
+Explica como añadir fuentes al proyecto mediante la modificación del archivo pubspec.yaml y como modificar los temas de los textos.
+
+![](capturas/segundaApp2.png)
+
+###  97. Updated Text Theme Properties
+![](capturas/nuevasPropiedadesDeTema.png)
+
+### Cuestionario 9: Theming
+![](capturas/cuestionario9.png)
+
+### 98. Adding Images to the App
+Explica como añadir imagenes a la aplicación (igual que las fuentes hay que especificarlos en el archivo pubspec) y como hacer que se adapten al tamaño que nos interese.
+
+### 99. Planning the Chart Widget
+Plánifica como será nuestro widget de gráficos.
+
+![](capturas/planificacionGraficos.png)
+
+### 100. Looping Through Lists
+Haciendo un bucle for para conseguir sumar el dinero gastado cada día de la semana para nuestro widget de gráficos.
+
+### 101. More on "for" Loops
+Documento donde explica los for extendidos.
+
+### 102. Deriving Recent Transactions
+Explica como mandar los datos de las transacciones recientes al widget de gráfico.
+
+### 103. Creating Bars for our Chart
+Creamos otro widget para que genere las barras de los gráficos. 
+
+### 104. Populating the Chart with Values
+
+
+
 
 
 
