@@ -110,11 +110,11 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void _eliminarTransaccion(String id){
-    // setState(() => {
-    //   transaccionesDelUsuario.removeWhere((transaccion) {
-    //     return transaccion.id == id;
-    //   })
-    // });
+    setState(() => {
+      transaccionesDelUsuario.removeWhere((transaccion) {
+        return transaccion.id == id;
+      })
+    });
   }
 
   void _startNuevaTransaccion(BuildContext contexto) {

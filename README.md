@@ -446,15 +446,20 @@ Hace un pequeño resumen de los aprendido en esta sección:
 
 ![](capturas/resumenSeccion3.png)
 
+### 116. Useful Resources & Links
+Links de interes.
 
+## Sección 5: Responsive & Adaptive User Interfaces and Apps
 
+### 117. Module Introduction
+Resume lo que se dará en el modulo.
 
+![](capturas/resumenModulo5.png)
 
+### 118. What does "Responsive" and "Adaptive" Mean?
+Habla de como habrá usuarios que utilicen la aplicación en modo vertical, otros en modo horizontal y en diferentes dispositivos. Además los dispositivos Android e Ios cada uno tienen sus 'looks', sus animaciones, sus tipografías, su estilo. 
 
-
-
-
-
-
+### 119. Examples: Where we could improve the App! 
+Busca detalles respecto a lo hablado en los que podríamos mejorar nuestra aplicación.
 
 

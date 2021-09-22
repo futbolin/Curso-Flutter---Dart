@@ -78,10 +78,14 @@ class TransaccionesLista extends StatelessWidget {
                                 ),
                               ),
                             ),
-                            IconButton(
-                                onPressed: eliminarTransaccion(
-                                    transaccionesDelUsuario[index].id),
-                                icon: Icon(Icons.remove)),
+                            Column(
+                              children: [
+                                IconButton(
+                                    onPressed: () => eliminarTransaccion(
+                                        transaccionesDelUsuario[index].id),
+                                    icon: Icon(Icons.delete)),
+                              ],
+                            ),
                           ],
                         ),
                       ),
