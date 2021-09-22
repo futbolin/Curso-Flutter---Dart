@@ -109,6 +109,14 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
+  void _eliminarTransaccion(String id){
+    // setState(() => {
+    //   transaccionesDelUsuario.removeWhere((transaccion) {
+    //     return transaccion.id == id;
+    //   })
+    // });
+  }
+
   void _startNuevaTransaccion(BuildContext contexto) {
     showModalBottomSheet(
       context: contexto,
@@ -143,7 +151,7 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             Grafico(transaccionesDelUsuario),
             SingleChildScrollView(
-                child: TransaccionesLista(transaccionesRecientes)),
+                child: TransaccionesLista(transaccionesRecientes,_eliminarTransaccion)),
           ],
         ),
       ),

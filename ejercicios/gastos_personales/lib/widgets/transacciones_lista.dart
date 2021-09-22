@@ -8,8 +8,9 @@ import 'package:intl/intl.dart';
 
 class TransaccionesLista extends StatelessWidget {
   final List<Transaccion> transaccionesDelUsuario;
+  final Function eliminarTransaccion;
 
-  TransaccionesLista(this.transaccionesDelUsuario);
+  TransaccionesLista(this.transaccionesDelUsuario, this.eliminarTransaccion);
 
   @override
   Widget build(BuildContext context) {
@@ -77,6 +78,10 @@ class TransaccionesLista extends StatelessWidget {
                                 ),
                               ),
                             ),
+                            IconButton(
+                                onPressed: eliminarTransaccion(
+                                    transaccionesDelUsuario[index].id),
+                                icon: Icon(Icons.remove)),
                           ],
                         ),
                       ),

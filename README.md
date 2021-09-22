@@ -435,7 +435,16 @@ Explica como pasar la fecha a la función agregarTransaccion.
 
 ![](capturas/segundaApp4.png)
 
+### 113. Deleting Transactions & Using IconButtons
+Nos enseña como borrar una transacción y como usar el widget IconButtons.
 
+### 114. Final Polishing!
+Explica como la App no es adaptativa y como en la siguiente sección daremos como hacerla responsive.
+
+### 115. Wrap up
+Hace un pequeño resumen de los aprendido en esta sección:
+
+![](capturas/resumenSeccion3.png)
 
 
 
