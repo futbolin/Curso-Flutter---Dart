@@ -1,5 +1,5 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 
 class NuevaTransaccion extends StatefulWidget {
   final Function agregarTransaccion;
@@ -15,17 +15,34 @@ class _NuevaTransaccionState extends State<NuevaTransaccion> {
 
   final precioControlador = TextEditingController();
 
+  DateTime fechaEscogida = DateTime.now() ;
+
+  void startEscogerFecha() {
+    showDatePicker(
+      context: context,
+      initialDate: DateTime.now(),
+      firstDate: DateTime(2019),
+      lastDate: DateTime.now(),
+    ).then((value) {
+      if (value == null) {
+        return;
+      }
+      setState(() {
+        fechaEscogida = value;
+      });
+    });
+  }
+
   void submit() {
     if (tituloControlador.text != "" &&
         double.tryParse(precioControlador.text)! > 0) {
       widget.agregarTransaccion(
-          tituloControlador.text, double.parse(precioControlador.text));
+          tituloControlador.text, double.parse(precioControlador.text),fechaEscogida);
     } else {
       return;
     }
 
     Navigator.of(context).pop();
-
   }
 
   @override
@@ -43,7 +60,6 @@ class _NuevaTransaccionState extends State<NuevaTransaccion> {
                 labelText: "Titulo de compra",
               ),
               onSubmitted: (val) => submit(),
-
             ),
             TextField(
               controller: precioControlador,
@@ -53,7 +69,18 @@ class _NuevaTransaccionState extends State<NuevaTransaccion> {
               keyboardType: TextInputType.numberWithOptions(decimal: true),
               onSubmitted: (val) => submit(),
             ),
-            FlatButton(
+            Row(
+              children: [
+                Text(fechaEscogida != null
+                    ? DateFormat.yMd().format(fechaEscogida)
+                    : "Sin fecha escogida!"),
+                Expanded(
+                  child: FlatButton(
+                      onPressed: startEscogerFecha, child: Text("Escoger fecha")),
+                )
+              ],
+            ),
+            RaisedButton(
               textColor: Color.fromARGB(255, 0, 47, 0),
               onPressed: () {
                 submit();

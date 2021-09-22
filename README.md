@@ -407,6 +407,38 @@ Creamos otro widget para que genere las barras de los gráficos.
 ### 104. Populating the Chart with Values
 Implementamos la barra de gráficos. 
 
+### 105. Finishing the Chart Bars
+Aprendemos lo que son los widgets Felxible y FittedBox. Damos unos retoques a el diseño de los gráficos.
+
+### 106. Flexible & Expanded: Deep Dive
+Explica más en profundidad el widget flexible y como lo podemos usar para diseñar. También explica brevemente el widget expanded, que tiene un funcionamiento muy parecido al flexible.
+
+### 107. Adding a ListTile Widget
+Explica como funciona el widget ListTile que basicamente es como una plantalli para crear listas.
+
+### 108. Improving the Overall Chart
+Explica como cambiar el orden de los días de la semana y como alinear las gráficas en caso de que haya números demasiado grandes.
+
+### 109. Widgets & Configuring Widgets - Summary / Overview
+Hace un resumen de los widgets estudiados en las últimas lecciones y explica como algunos widgets son super similares a otros pero con ligeros cambios para adaptarse a funciones más concretas y como es interesante estudiar los widgets que hay ya que puedes encontrar algunos que te hagan resolver tu trabajo de un modo más sencillo.
+
+### 110. Getting Started with Date Selection
+Empezamos a preparar el selector de fechas en la ventana modal.
+
+![](capturas/segundaApp3.png)
+
+### 111. Showing a DatePicker
+Nos enseña como hacer una función que llama al showDatePicker.
+
+### 112. Adding Transactions with a Date
+Explica como pasar la fecha a la función agregarTransaccion.
+
+![](capturas/segundaApp4.png)
+
+
+
+
+
 
 
 

@@ -11,7 +11,9 @@ class GraficoBarra extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Text("${cantidad.toStringAsFixed(2)}€"),
+        FittedBox(
+          child: Text("${cantidad.toStringAsFixed(2)}€"),
+        ),
         SizedBox(
           height: 4,
         ),
@@ -26,12 +28,12 @@ class GraficoBarra extends StatelessWidget {
                     color: Color.fromARGB(255, 0, 47, 0),
                     width: 1.0,
                   ),
-                  color: Color.fromARGB(255, 240 , 240, 240),
+                  color: Color.fromARGB(255, 240, 240, 240),
                   borderRadius: BorderRadius.circular(10),
                 ),
               ),
               FractionallySizedBox(
-                heightFactor: cantidadDelTotal,
+                  heightFactor: cantidadDelTotal,
                   child: Container(
                     decoration: BoxDecoration(
                         color: Color.fromARGB(255, 0, 47, 0),
