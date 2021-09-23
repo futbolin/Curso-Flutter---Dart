@@ -462,4 +462,18 @@ Habla de como habrá usuarios que utilicen la aplicación en modo vertical, otro
 ### 119. Examples: Where we could improve the App! 
 Busca detalles respecto a lo hablado en los que podríamos mejorar nuestra aplicación.
 
+## 23/09/21
+
+### 120. Calculating Sizes Dynamically
+Explica como calcular dinamicamente el tamaño de los componentes para que no hacerlo con medidas de pixeles y que sea adaptativo mediante funciones como MedyaQuery.of(context).size.
+
+### 121. Working with the "textScaleFactor"
+Documento que explica que hay que tener en cuenta el textScaleFactor que basicamente te comunica como el usuario tiene escalado el texto en las preferencias de su dispositivo.
+
+### 122. Using the LayoutBuilder Widget
+Usamos el widget layoutBuilder para poder trabajar con constraints. 
+
+### Cuestionario 10: Responsiveness
+![](capturas/cuestionario10.png)
+
 

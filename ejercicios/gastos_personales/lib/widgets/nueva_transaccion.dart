@@ -15,7 +15,7 @@ class _NuevaTransaccionState extends State<NuevaTransaccion> {
 
   final precioControlador = TextEditingController();
 
-  DateTime? fechaEscogida;
+  DateTime fechaEscogida = DateTime.now();
 
   void startEscogerFecha() {
     showDatePicker(

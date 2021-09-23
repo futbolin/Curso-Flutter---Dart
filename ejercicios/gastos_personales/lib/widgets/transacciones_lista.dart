@@ -9,8 +9,9 @@ import 'package:intl/intl.dart';
 class TransaccionesLista extends StatelessWidget {
   final List<Transaccion> transaccionesDelUsuario;
   final Function eliminarTransaccion;
+  final double height;
 
-  TransaccionesLista(this.transaccionesDelUsuario, this.eliminarTransaccion);
+  TransaccionesLista(this.transaccionesDelUsuario, this.eliminarTransaccion,this.height);
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +19,7 @@ class TransaccionesLista extends StatelessWidget {
       mainAxisSize: MainAxisSize.max,
       children: [
         Container(
-          height: 450,
+          height: height,
           padding: EdgeInsets.symmetric(horizontal: 10),
           child: transaccionesDelUsuario.isEmpty
               ? Column(

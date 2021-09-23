@@ -96,7 +96,7 @@ class _MyHomePageState extends State<MyHomePage> {
     }).toList();
   }
 
-  void _agregarTransaccion(String titulo, double precio,DateTime fecha) {
+  void _agregarTransaccion(String titulo, double precio, DateTime fecha) {
     final nuevaTransaccion = Transaccion(
       titulo: titulo,
       cantidad: precio,
@@ -109,12 +109,12 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
-  void _eliminarTransaccion(String id){
+  void _eliminarTransaccion(String id) {
     setState(() => {
-      transaccionesDelUsuario.removeWhere((transaccion) {
-        return transaccion.id == id;
-      })
-    });
+          transaccionesDelUsuario.removeWhere((transaccion) {
+            return transaccion.id == id;
+          })
+        });
   }
 
   void _startNuevaTransaccion(BuildContext contexto) {
@@ -130,28 +130,38 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 
-
-
   @override
   Widget build(BuildContext context) {
+    final AppBar appBar = AppBar(
+      backgroundColor: Color.fromARGB(255, 0, 47, 187),
+      title: Text('Gastos App'),
+      actions: [
+        IconButton(
+          onPressed: () => _startNuevaTransaccion(context),
+          icon: Icon(Icons.add),
+        ),
+      ],
+    );
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Color.fromARGB(255, 0, 47, 187),
-        title: Text('Gastos App'),
-        actions: [
-          IconButton(
-            onPressed: () => _startNuevaTransaccion(context),
-            icon: Icon(Icons.add),
-          ),
-        ],
-      ),
+      appBar: appBar,
       body: Container(
         child: Column(
           mainAxisSize: MainAxisSize.max,
           children: <Widget>[
-            Grafico(transaccionesDelUsuario),
+            Container(
+                height: (MediaQuery.of(context).size.height -
+                    appBar.preferredSize.height -
+                    MediaQuery.of(context).padding.top) * 0.3,
+                child: Grafico(transaccionesDelUsuario)),
             SingleChildScrollView(
-                child: TransaccionesLista(transaccionesRecientes,_eliminarTransaccion)),
+              child: TransaccionesLista(
+                  transaccionesRecientes,
+                  _eliminarTransaccion,
+                  (MediaQuery.of(context).size.height -
+                          MediaQuery.of(context).padding.top -
+                          appBar.preferredSize.height) *
+                      0.7),
+            ),
           ],
         ),
       ),
