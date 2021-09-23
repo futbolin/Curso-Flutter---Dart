@@ -525,3 +525,12 @@ Resumen de lo dado en esta sección.
 Enlaces de interes.
 
 ## Sección 6: Widget & Flutter Internals - Deep Dive
+
+### 138. Module Introduction
+Habla de lo que se dará en esta seccion: como funcionan flutter de una manera más profunda.
+
+### 139. The Problem At Hand
+Flutter funciona a 60 fps, osea que pinta lo que se ve en pantalla 60 veces por segunda, y esto sería un problema de eficiencia si tuviese que calcular lo que tiene que dibujar cada vez, pero si nada cambia no tiene que calcular nada.
+
+### 140. Widget Tree & Element Tree - What, Why and How? 
+Hay tres arboles, el de widgets el de elementos y el de render. Tu solo te encargas de controlar el widget tree, los otros los administra flutter internamente basandose en tu widget treee.   
