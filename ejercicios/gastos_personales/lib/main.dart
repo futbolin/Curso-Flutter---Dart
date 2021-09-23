@@ -171,7 +171,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
         onPressed: () => _startNuevaTransaccion(context),
       ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
+      floatingActionButtonLocation: FloatingActionButtonLocation.endFloat,
     );
   }
 }

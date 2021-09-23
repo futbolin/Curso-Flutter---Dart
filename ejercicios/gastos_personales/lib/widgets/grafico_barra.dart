@@ -16,7 +16,7 @@ class GraficoBarra extends StatelessWidget {
             Container(
               height: cns.maxHeight * 0.15,
               child: FittedBox(
-                child: Text("${cantidad.toStringAsFixed(2)}€"),
+                child: Text(" ${cantidad.toStringAsFixed(2)}€ "),
               ),
             ),
             SizedBox(

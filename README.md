@@ -476,4 +476,52 @@ Usamos el widget layoutBuilder para poder trabajar con constraints.
 ### Cuestionario 10: Responsiveness
 ![](capturas/cuestionario10.png)
 
+### 123. Controlling the Device Orientation
+Nos enseña como restringir la orientación del dispositivo mediante la inclusión de SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]).
 
+### 124. Rendering Alternative Landscape Content - 1
+Nos enseña a añadir un objeto tipo switch para elegir en modo landscape si queremos motrar los gráficos o no.
+
+### 125. Finishing Landscape Mode
+Explica como hacer que la imagen no se quede super grande en el modo landscape.
+
+### 126. Showing Different Content Based on Device Orientation
+Explica como acceder a la información del dispoitivo para saber la orientación del mismo y mostrar de manera diferente la pantalla dependiendo su orientación.
+
+### 127. Respecting the Softkeyboard Insets
+Explica como cambiar el formulario modal para que aumente el padding en caso de que haya un teclado en pantalla y así poder activar el scroll y acceder a los parametros que tapa el teclado.
+
+### 128. Using the Device Size in Conditions
+Da un ejemplo para nuestra app de como aprovechar mejor el espacio en pantallas más grandes.
+
+### 129. Managing the MediaQuery Object
+Al acceder varias veces al objeto MediaQuery estamos haciendo consultas inecesarias, sería mejor guardarlo en un objeto al principio del builder.
+
+### 130. Checking the Device Platform
+Explica como algunos widgets tienen una manera de adaptarse al sistema en el que se ejecutan, como el switch poniendole swich.adaptive. También explica como acceder a la información de que plataforma estamos usando y así adaptarse al estilo de dicha plataforma.
+
+### 131. Using Cupertino (iOS) Widgets
+Explica como usar algunos de los widgets de iOs para adaptarse más a la plataforma.
+
+### 132. Using the SafeArea
+Widget con el cual podemos envolver el body para garantizarnos que esta en el espacio en el que puede estar.
+
+### 133. More Cupertino Styles
+Adaptamos nuestra aplicación más al estilo de cupertino.
+
+### 134. Using Cupertino Buttons
+Explica como usar los botones de cupertino.
+
+### 135. Creating Custom Adaptive Widgets
+Creamos widgets adaptativos para tener el codigo más modularizado ordenado y legible.
+
+### Cuestionario 11: Adaptive Widgets
+![](capturas/cuestionario11.png)
+
+### 136. Wrap Up
+Resumen de lo dado en esta sección.
+
+### 137. Useful Resources & Links
+Enlaces de interes.
+
+## Sección 6: Widget & Flutter Internals - Deep Dive
