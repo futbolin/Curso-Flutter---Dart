@@ -607,3 +607,10 @@ Creamos las celdas en nuestro objeto category item. Les damos degradados como fo
 
 ### 160. Registering a Screen as the Main Screen
 Explica como hacer que una pantalla sea la principal de la aplicación.
+
+### 161. Styling & Theming
+Damos estilo a la página añadiendo tipografías y color de fondo.
+
+### 162. Navigating to a New Page
+Explica como hacer que cada una de las tarjetas te lleve a una categoría.
+
