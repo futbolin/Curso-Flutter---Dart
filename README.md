@@ -613,4 +613,15 @@ Damos estilo a la página añadiendo tipografías y color de fondo.
 
 ### 162. Navigating to a New Page
 Explica como hacer que cada una de las tarjetas te lleve a una categoría.
+![](capturas/terceraApp1.png)
+
+### 163. Passing Data via the Constructor
+Explica como pasar el titulo a la segunda pantalla.
+
+### 164. Using Named Routes & Passing Data With Named Routes
+Explica como usar las routas con nombre y pasar información a través de los argumentos.
+
+### Cuestionario 14: Screens & Navigation
+![](capturas/cuestionario14.png)
+
 
