@@ -599,6 +599,11 @@ Explica lo que haremos en este nuevo modulo.
 Planificamos la App que se va a crear en esta sección.
 ![](capturas/planificandoApp3.png)
 
+### 158. Starting With The App - Adding Base Data
+Creamos la clase category y creamos una clase que provee de los datos que usaremos para las categorias de la aplicación.
 
+### 159. Creating a Grid & Working with Linear Gradients
+Creamos las celdas en nuestro objeto category item. Les damos degradados como fondo para así trabajar con estos  y despues desplegamos nuestra lista de información en el gridview como widgets del tipo que acabamos de crear.
 
-
+### 160. Registering a Screen as the Main Screen
+Explica como hacer que una pantalla sea la principal de la aplicación.
