@@ -624,4 +624,19 @@ Explica como usar las routas con nombre y pasar información a través de los ar
 ### Cuestionario 14: Screens & Navigation
 ![](capturas/cuestionario14.png)
 
+### 165. Diving Deeper into Named Routes
+Explica como poner un nombre como propiedad estática y constante en la clase a la que se quiere dirigir y así tener localizado en un solo sitio la dirección.
+
+### 166. Adding a Meal Model & Data
+Añadimos una clase tipo meal y la informacion al archivo dymmu data.
+
+### 167. Selecting Meals for a Chosen Category
+Nos explica como filtrar las comidas por categoria  .contains.
+
+### 168. Displaying Recipe Items & Using Network Images
+Ordenamos en paquetes los widgets y screens. Mostramos en cada categoría fichas de la comida de momento solo cargando imagenes desde internet.
+![](capturas/terceraApp2.png)
+
+
+
 
