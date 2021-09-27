@@ -589,4 +589,16 @@ Resumen de los dado en esta sección.
 ### 155. Useful Resources & Links
 Recursos y links interesantes para complementar lo dado.
 
+## Sección 7: Navigation & Multiple Screens [MEALS APP]
+
+### 156. Module Introduction
+Explica lo que haremos en este nuevo modulo.
+![](capturas/resumenSeccion7.png)
+
+### 157. Planning the App
+Planificamos la App que se va a crear en esta sección.
+![](capturas/planificandoApp3.png)
+
+
+
 
