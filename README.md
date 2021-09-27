@@ -533,4 +533,60 @@ Habla de lo que se dará en esta seccion: como funcionan flutter de una manera m
 Flutter funciona a 60 fps, osea que pinta lo que se ve en pantalla 60 veces por segunda, y esto sería un problema de eficiencia si tuviese que calcular lo que tiene que dibujar cada vez, pero si nada cambia no tiene que calcular nada.
 
 ### 140. Widget Tree & Element Tree - What, Why and How? 
-Hay tres arboles, el de widgets el de elementos y el de render. Tu solo te encargas de controlar el widget tree, los otros los administra flutter internamente basandose en tu widget treee.   
+Hay tres arboles, el de widgets el de elementos y el de render. Tu solo te encargas de controlar el widget tree, los otros los administra flutter internamente basandose en tu widget treee.  Explica cuando se ejecuta la compilación  y cuando se renderiza.
+
+## 27/09/21 
+
+### 141. How Flutter Rebuilds & Repaints the Screen 
+Flutter no reconstruye el arbol de elementos al llamar a la función build, sustituye la referencia de los widgets por las referencias de los nuevos widgets comprueba si hay una nueva configuración en estos widgets respecto a los anteriores y en caso de que sea así pasa esa información al arbol de Render para que este renderize/actualice las partes necesarias. 
+
+### 142. How Flutter Executes build()
+Explica de manera practica y haciendo prints en el codigo de la aplicación que hemos creado como se ejecutan la función build y los constructores der los widgets.
+
+### 143. Using "const" Widgets & Constructors
+Explica como hacer const los objetos inmutables mejora sutilmente la eficiencia de nuestra aplicación.
+
+### Cuestionario 12: Widgets, Elements, build()
+![](capturas/cuestionario12.png)
+
+### 144. Writing Good Code
+Habla de como a veces es más importante la legibilidad del codigo que el rendimiento. 
+
+### 145. Extracting Widgets
+Explica como extraer un widget a otra clase, utiliza la aplicación que creamos para hacerlo.
+
+### 146. Using Builder Methods
+Explica como crear builders de widgets para darle más legibilidad al codigo. También explica el operador de propagación "..." que lo que hace es "descomponer" una lista en todos sus elementos individuales.
+
+### 147. Understanding the Widget Lifecycle
+Explica el ciclo de vida de los widgets (con estado y sin estado) y luego sobreescibre los metos de este ciclo de vida para que veamos cuando se ejecutan. 
+
+### 148. Calling super.initState() etc.
+Documento en el que explica en que orden usar la llamada al super.initState().
+
+### 149. Understanding the App Lifecycle
+Explica el ciclo de vida de la app y como saber en que momento esta la misma.
+![](capturas/ciclovida.png )
+
+### 150. Understanding Context
+Explica que el contexto es una propiedad de todos los widgets mediante el cual puede acceder a datos de otras partes del arbol de widgets sin necesidad de transferir esos datos por todos los construcores de todos los widgets.
+
+### 151. A Problem with Lists & Stateful Widgets
+Explica un problema que hay con las listas y los widgets con estados dando un ejemplo en nuestra aplicación.
+
+### 152. Understanding the Problem Root
+Explica que el problema viene por parte de flutter ya que compara el tipo de elemento de la lista y al considerar que son el mismo elemento mantiene el estado del widget.
+
+### 153. Using Keys
+Explica como usar la propiedad key como elemento diferenciador y a comparar al eliminar un widget entre widgets del mismo tipo para evitar así errores.
+
+### Cuestionario 13: Keys, Lists, Stateful Widgets
+![](capturas/cuestionario13.png)
+
+### 154. Wrap Up
+Resumen de los dado en esta sección.
+
+### 155. Useful Resources & Links
+Recursos y links interesantes para complementar lo dado.
+
+
