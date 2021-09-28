@@ -637,6 +637,8 @@ Nos explica como filtrar las comidas por categoria  .contains.
 Ordenamos en paquetes los widgets y screens. Mostramos en cada categoría fichas de la comida de momento solo cargando imagenes desde internet.
 ![](capturas/terceraApp2.png)
 
-
+### 169. Finishing the Meal List Item
+Maquetamos mejor la ficha de cada comida y aprendemos como pasar de una enum a un texto.
+![](capturas/terceraApp3.png)
 
 
