@@ -644,4 +644,21 @@ Maquetamos mejor la ficha de cada comida y aprendemos como pasar de una enum a u
 
 ![](capturas/terceraApp3.png)
 
+### 170. Navigating to the Meal Detail Page
+Empezamos a desarollar la pantalla de detalles de los alimentos.
+
+### 171. onGenerateRoute & onUnknownRoute
+Explica la propiedad onGenerateRoute que toma una función que ejecuta cada vez que se llame a una ruta y onUnknowRoute  que sirve para hacer una página que se muestre en caso de que la routa a la que se acceda no exista (como un 404).
+
+### Cuestionario 15: More Navigation!
+![](capturas/cuestionario15.png)
+
+### 172. Finishing the Meal Detail Page
+Terminamos la pantalla de especificaciones de alimentos donde ponemos una lista de ingredientes y una lista de pasos para llevar la receta a cabo.
+![](capturas/terceraApp4.png)
+
+
+
+
+
 
