@@ -655,6 +655,7 @@ Explica la propiedad onGenerateRoute que toma una función que ejecuta cada vez 
 
 ### 172. Finishing the Meal Detail Page
 Terminamos la pantalla de especificaciones de alimentos donde ponemos una lista de ingredientes y una lista de pasos para llevar la receta a cabo.
+
 ![](capturas/terceraApp4.png)
 
 
