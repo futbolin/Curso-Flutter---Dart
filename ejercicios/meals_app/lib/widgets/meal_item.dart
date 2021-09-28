@@ -27,10 +27,31 @@ class MealItem extends StatelessWidget {
               Stack(
                 children: [
                   ClipRRect(
-                      child: Image.network(imageUrl,
-                          height: 250,
-                          width: double.infinity,
-                          fit: BoxFit.cover),
+                      child: Image.network(
+                        imageUrl,
+                        height: 250,
+                        width: double.infinity,
+                        fit: BoxFit.cover,
+                        loadingBuilder: (ctx, child, event) {
+                          if (event == null) {
+                            return child;
+                          } else {
+                            return Container(
+                              height: 250,
+                              width: double.infinity,
+                              child: Center(
+                                child: CircularProgressIndicator(
+                                  color: Colors.pink,
+                                  value: event.expectedTotalBytes != null
+                                      ? event.cumulativeBytesLoaded /
+                                          event.expectedTotalBytes
+                                      : null,
+                                ),
+                              ),
+                            );
+                          }
+                        },
+                      ),
                       borderRadius: BorderRadius.only(
                           topLeft: Radius.circular(15),
                           topRight: Radius.circular(15))),
