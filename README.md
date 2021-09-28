@@ -613,6 +613,7 @@ Damos estilo a la página añadiendo tipografías y color de fondo.
 
 ### 162. Navigating to a New Page
 Explica como hacer que cada una de las tarjetas te lleve a una categoría.
+
 ![](capturas/terceraApp1.png)
 
 ### 163. Passing Data via the Constructor
@@ -635,10 +636,12 @@ Nos explica como filtrar las comidas por categoria  .contains.
 
 ### 168. Displaying Recipe Items & Using Network Images
 Ordenamos en paquetes los widgets y screens. Mostramos en cada categoría fichas de la comida de momento solo cargando imagenes desde internet.
+
 ![](capturas/terceraApp2.png)
 
 ### 169. Finishing the Meal List Item
 Maquetamos mejor la ficha de cada comida y aprendemos como pasar de una enum a un texto.
+
 ![](capturas/terceraApp3.png)
 
 
