@@ -658,6 +658,17 @@ Terminamos la pantalla de especificaciones de alimentos donde ponemos una lista 
 
 ![](capturas/terceraApp4.png)
 
+## 29/09/21
+
+### 173. Adding a TabBar to the Appbar
+Añadimos una screen de tab en la que hay dos pestañas uina de categorías y una de favoritos y segun lo que se pulse mostrar una pantalla en lel body de la misma u otro.
+
+### 174. Adding a Bottom TabBar
+Añadimos una barra de pestañas en la parte de abajo de la aplicación en vez de en la de arriba, y aunque parezca fácil se hace de una manera completamente diferente y gestionas tu las pulsaciones en los diferentes iconos y que la pantalla se cambie.
+
+![](capturas/terceraApp4.png)
+
+
 
 
 
