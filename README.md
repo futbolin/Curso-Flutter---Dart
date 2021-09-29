@@ -666,7 +666,7 @@ Añadimos una screen de tab en la que hay dos pestañas uina de categorías y un
 ### 174. Adding a Bottom TabBar
 Añadimos una barra de pestañas en la parte de abajo de la aplicación en vez de en la de arriba, y aunque parezca fácil se hace de una manera completamente diferente y gestionas tu las pulsaciones en los diferentes iconos y que la pantalla se cambie.
 
-![](capturas/terceraApp4.png)
+![](capturas/terceraApp5.png)
 
 
 
