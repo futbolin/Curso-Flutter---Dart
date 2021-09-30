@@ -10,20 +10,28 @@ class MealItem extends StatelessWidget {
   final Complexity complexity;
   final Affordability affordability;
 
-  MealItem(this.id,this.title, this.imageUrl, this.duration, this.complexity,
+  MealItem(this.id, this.title, this.imageUrl, this.duration, this.complexity,
       this.affordability);
 
   void selectMeal(BuildContext context) {
-    Navigator.of(context).pushNamed(MealDetailScreen.routeName,arguments: id,);
+    Navigator.of(context)
+        .pushNamed(
+      MealDetailScreen.routeName,
+      arguments: id,
+    )
+        .then((value) {
+      print(value);
+    });
   }
 
-  String get complexityText{
+  String get complexityText {
     return complexity.toString().split(".")[1];
   }
 
-  String get affordabilityText{
+  String get affordabilityText {
     return affordability.toString().split(".")[1];
   }
+
   @override
   Widget build(BuildContext context) {
     return InkWell(

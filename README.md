@@ -677,6 +677,39 @@ Añadimos link a nuestro ""cajon" para que cada uno de los widgets que ponemos n
 ### Cuestionario 16: Tabs & Drawers!
 ![](capturas/cuestionario16.png)
 
+### 177. Replacing Pages (Instead of Pushing)
+Enseña como remplazar la pantalla a la hora de pushearla en lugar de dejarla en el stack de memoría y así evitar problemas de memoria.
+
+### 178. Popping Pages & Passing Data Back
+Explica como volver a la pantalla anterior y devolver datos al hacer esa devolución. Para hacerlo añade a la aplicación un botón de borrado de comidas.
+
+### Cuestionario 17: Replacing, Popping & Data
+![](capturas/cuestionario17.png)
+
+### 179. Adding Filter Switches
+Añade switches en la pantalla de filtros para controlar las booleanas.
+
+### 180. Adding Filtering Logic
+Añade la lógica necesaria para utilizar los filtros.
+
+### 181. Adding a "Mark as Favorite" Feature
+Se añade un botón de favorito en los alimentos y se hace que se muestre en la sección de favoritos.
+
+### 182. A Problem!
+Habla del problema que da que la página de favoritos este cacheada, por que al borrar un favorito y volver sigue estando ahi la comida a la que hemos quitado 
+
+### 183. Wrap Up
+Resumen de lo dado en la sección.
+
+### 184. Useful Resources & Links
+Links y adjuntos de interes.
+
+
+
+
+
+
+
 
 
 
