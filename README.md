@@ -3,7 +3,7 @@
 # Plataforma:
 ## udemy
 
-# 01/09/21:
+## 01/09/21:
 
 ## Sección 1: Introduction
 
@@ -704,6 +704,17 @@ Resumen de lo dado en la sección.
 ### 184. Useful Resources & Links
 Links y adjuntos de interes.
 
+## 13/10/21
+
+## Sección 8: State Management [SHOP APP]
+
+### 185. Module Introduction
+Introducción a este modulo en el que enseña la app que haremos.
+
+### 186. Planning the App
+Planificamos la app con un dibujo de como será y las pantallas que tendrá.
+
+### Defining a Data Model
 
 
 
