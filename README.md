@@ -714,7 +714,15 @@ Introducción a este modulo en el que enseña la app que haremos.
 ### 186. Planning the App
 Planificamos la app con un dibujo de como será y las pantallas que tendrá.
 
-### Defining a Data Model
+### 187.Defining a Data Model
+Definimos la clase producto para empezar a hacer su screen.
+
+### 188. Working on the "Products" Grid & Item Widgets
+Diseñamos las cuadriculas para cada uno de los productos.
+
+## 14/10/21
+
+### 186.
 
 
 
