@@ -722,7 +722,15 @@ Diseñamos las cuadriculas para cada uno de los productos.
 
 ## 14/10/21
 
-### 186.
+### 189. Styling & Theming the App
+Explica de nuevo como poner otras tipografías y como poner los bordes redondos de las tarjetas de los productos.
+
+### 190. Adding Navigation to the App
+Aprendemos a usar GestureDetector para que cada uno de los articulos nos lleve a su propia pantalla de detalles (también creamos esta) y a utilizar las routas de una mannera más dinámica.
+
+### 191. Why State Management? And what is "State" and "State Management"?
+Explica como el estado aydua a gestionar los datos que afectan a varios partes del programa.
+
 
 
 
